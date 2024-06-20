@@ -3,9 +3,11 @@ var moveZero = function (nums) {
     for (let i = 0; i < nums.length; i++) {
         if (nums[i] !== 0) {
             let temp = nums[index];
-            nums[index] =  nums[i];
-nums[i] = temp;
-index++;
+            nums[index] = nums[i];
+            nums[i] = temp;
+            index++;
         }
     }
 }
+
+//revised 1
